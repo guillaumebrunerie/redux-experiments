@@ -1,6 +1,6 @@
 import { createAction, createReducer } from "./store-interface";
 
-export interface Todo {
+export type Todo = {
   id: string;
   message: string;
   completed: boolean;
@@ -12,11 +12,11 @@ export type Todos = {
 };
 
 const initialState: Todos = {
-  allIds: ["xxx", "yyy", "zzz"],
+  allIds: ["a", "b", "c"],
   byId: {
-    xxx: { id: "xxx", message: "XXX", completed: false },
-    yyy: { id: "yyy", message: "YYY", completed: false },
-    zzz: { id: "zzz", message: "ZZZ", completed: false },
+    a: { id: "a", message: "First todo", completed: false },
+    b: { id: "b", message: "Second todo", completed: false },
+    c: { id: "c", message: "Third todo", completed: false },
   },
 };
 

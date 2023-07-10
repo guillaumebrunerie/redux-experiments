@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { useDispatch } from "../store/store-interface";
 import { addTodo } from "../store/todos";
-import { AppDispatch } from "../store/store";
 
-const TodoInput: React.FC = () => {
-  const dispatch: AppDispatch = useDispatch();
+const TodoInput = () => {
+  const dispatch = useDispatch();
   const [inputValue, setInputValue] = useState("");
 
   return (
