@@ -1,4 +1,3 @@
-import * as React from "react";
 import store from "./store/store";
 import { Provider } from "./store/store-interface";
 import TodoList from "./components/TodoList";

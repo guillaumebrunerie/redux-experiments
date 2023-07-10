@@ -6,8 +6,10 @@ export { createAction } from "@reduxjs/toolkit";
 
 ////////// Regular React Redux /////////
 
-// export { configureStore, createReducer } from "@reduxjs/toolkit";
-// export { Provider, useSelector, useDispatch } from "react-redux";
+/*
+export { configureStore, createReducer } from "@reduxjs/toolkit";
+export { Provider, useSelector, useDispatch } from "react-redux";
+*/
 
 
 ////////// React Redux Tracked /////////
@@ -18,10 +20,12 @@ export { Provider, useSelector, useDispatch } from "react-redux-tracked";
 
 //////////// Solid-inspired ////////////
 
-// export {
-//   configureStore,
-//   createReducer,
-//   Provider,
-//   useSelector,
-//   useDispatch,
-// } from "./solid-redux-js";
+/*
+export {
+  configureStore,
+  createReducer,
+  Provider,
+  useSelector,
+  useDispatch,
+} from "./solid-redux-js";
+*/

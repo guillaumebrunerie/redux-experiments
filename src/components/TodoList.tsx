@@ -1,4 +1,3 @@
-import * as React from "react";
 import { useSelector } from "../store/store-interface";
 import { selectAllTodoIds } from "../store/selectors";
 import Todo from "./Todo";

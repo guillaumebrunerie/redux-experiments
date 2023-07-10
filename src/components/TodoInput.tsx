@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useDispatch } from "../store/store-interface";
 import { addTodo } from "../store/todos";
 

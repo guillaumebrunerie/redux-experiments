@@ -1,4 +1,3 @@
-import * as React from "react";
 import cn from "classnames";
 import { useSelector, useDispatch } from "../store/store-interface";
 import { completeTodo, deleteTodo } from "../store/todos";
